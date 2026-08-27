@@ -8,9 +8,9 @@ Nothing here is "official." These are tools people actually use, experiments wor
 
 ## Get started
 
-**Want to try something?** Browse the [tool index](#tool-index) below and click into anything that looks useful. Each project page tells you how to get going.
+**Browse** the [tool index](#tool-index) below. Each project page tells you how to get going.
 
-**Want to add yours?** Follow the [contribution guide](CONTRIBUTING.md) — it takes about 5 minutes. Rough, unpolished things are welcome.
+**Add** your work using the [contribution guide](CONTRIBUTING.md) — it takes about 5 minutes. Rough, unpolished things are welcome.
 
 **Have an idea but no code?** [Open an issue](../../issues) and describe what you wish existed. Someone might build it or help you get started.
 
