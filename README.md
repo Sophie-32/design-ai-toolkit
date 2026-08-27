@@ -19,35 +19,35 @@ Whether you've built a polished Gemini gem or hacked together a quick automation
 
 ## 🔮 Gems
 
-| Project | Author | Description |
-|---------|--------|-------------|
-| [Canonical UX writing bot](projects/canonical-ux-writing-bot) | Sophie Felder | Gemini gem for writing UX copy in the Canonical voice |
-| [Canonical editing bot](projects/canonical-editing-bot) | Sophie Felder | Gemini gem for editing and reviewing UX copy |
+| Project                                                       | Author         | Description                                  |
+|---------------------------------------------------------------|----------------|----------------------------------------------|
+| [Canonical UX writing bot](projects/canonical-ux-writing-bot) | Sophie Felder  | Writes UX copy in the Canonical voice        |
+| [Canonical editing bot](projects/canonical-editing-bot)       | Sophie Felder  | Edits and reviews UX copy                    |
 
 ## 🛠 Skills
 
-| Project | Author | Description |
-|---------|--------|-------------|
-| [Automated UX QA checklist](projects/automated-ux-qa-checklist) | Sophie Felder | Skill for automated UX quality checks against standards |
-| [CLI skill](projects/cli-skill) | Hartmut Obendorf | Skill for reviewing and designing Canonical CLIs |
-| [penpot-automation](projects/penpot-automation) | Hartmut Obendorf | Skill for automating Penpot design workflows |
+| Project                                                         | Author           | Description                                  |
+|-----------------------------------------------------------------|------------------|----------------------------------------------|
+| [Automated UX QA checklist](projects/automated-ux-qa-checklist) | Sophie Felder    | Runs UX quality checks against standards     |
+| [CLI skill](projects/cli-skill)                                 | Hartmut Obendorf | Reviews and designs Canonical CLIs           |
+| [penpot-automation](projects/penpot-automation)                 | Hartmut Obendorf | Automates Penpot design workflows            |
 
 ## 💻 Code
 
-| Project | Author | Description |
-|---------|--------|-------------|
-| [AI-enabled terminal prototype](projects/ai-enabled-terminal-prototype) | Hartmut Obendorf | Prototype terminal with AI capabilities |
-| [Design workshop](projects/design-workshop) | Hartmut Obendorf | Code tools for design workshop facilitation |
-| [pi SDK](projects/pi-sdk) | Hartmut Obendorf | SDK for design system integration |
-| [Component wiki relaunch](projects/component-wiki-relaunch) | Hartmut Obendorf | Refreshed component documentation wiki |
-| [Documentation Search prototype](projects/documentation-search-prototype) | Hartmut Obendorf | Prototype for searching design documentation |
-| [Mermaid rendering engine prototype](projects/mermaid-rendering-engine-prototype) | Hartmut Obendorf | Prototype Mermaid diagram renderer |
+| Project                                                                           | Author           | Description                                  |
+|-----------------------------------------------------------------------------------|------------------|----------------------------------------------|
+| [AI-enabled terminal prototype](projects/ai-enabled-terminal-prototype)           | Hartmut Obendorf | Terminal with AI capabilities                |
+| [Design workshop](projects/design-workshop)                                       | Hartmut Obendorf | Tools for design workshop facilitation       |
+| [pi SDK](projects/pi-sdk)                                                         | Hartmut Obendorf | Design system integration SDK                |
+| [Component wiki relaunch](projects/component-wiki-relaunch)                       | Hartmut Obendorf | Refreshed component documentation wiki       |
+| [Documentation Search prototype](projects/documentation-search-prototype)         | Hartmut Obendorf | Searches design documentation                |
+| [Mermaid rendering engine prototype](projects/mermaid-rendering-engine-prototype) | Hartmut Obendorf | Renders Mermaid diagrams                     |
 
 ## 📦 Other
 
-| Project | Author | Description |
-|---------|--------|-------------|
-| [JIRA triggers](projects/jira-triggers) | Hartmut Obendorf | JIRA automation triggers for design workflows |
+| Project                                                                           | Author           | Description                                  |
+|-----------------------------------------------------------------------------------|------------------|----------------------------------------------|
+| [JIRA triggers](projects/jira-triggers)                                           | Hartmut Obendorf | Automation triggers for design workflows     |
 
 ---
 
