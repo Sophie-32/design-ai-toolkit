@@ -1,71 +1,51 @@
 # Design AI Toolkit
 
-A shared collection of AI tools, prototypes, and resources built by designers, for designers.
+A shared place for AI tools built by designers, for designers. We kept finding that one person would build something useful and others wouldn't know about it — so we made this repo to fix that.
 
-Whether you've built a polished Gemini gem or hacked together a quick automation — if it helps your design work, it belongs here.
-
----
-
-## Browse by type
-
-| Type | What it is | Examples |
-|------|-----------|----------|
-| 🔮 **[Gems](#-gems)** | Gemini gems configured for design tasks | UX writing bot, editing bot |
-| 🛠 **[Skills](#-skills)** | Copilot skills and reusable prompts | CLI review skill, QA checklist |
-| 💻 **[Code](#-code)** | Prototypes, tools, and integrations | Terminal prototypes, rendering engines |
-| 📦 **[Other](#-other)** | Anything else that's useful | JIRA automations, workflow hacks |
+Nothing here is "official." These are tools people actually use, experiments worth trying, and ideas worth stealing. If it helps your design work, it belongs here.
 
 ---
 
-## 🔮 Gems
+## Get started
 
-| Project                                                       | Author         | Description                                  |
-|---------------------------------------------------------------|----------------|----------------------------------------------|
-| [Canonical UX writing bot](projects/canonical-ux-writing-bot) | Sophie Felder  | Writes UX copy in the Canonical voice        |
-| [Canonical editing bot](projects/canonical-editing-bot)       | Sophie Felder  | Edits and reviews UX copy                    |
+**Want to try something?** Browse the [tool index](#tool-index) below and click into anything that looks useful. Each project page tells you how to get going.
 
-## 🛠 Skills
+**Want to add yours?** Follow the [contribution guide](CONTRIBUTING.md) — it takes about 5 minutes. Rough, unpolished things are welcome.
 
-| Project                                                         | Author           | Description                                  |
-|-----------------------------------------------------------------|------------------|----------------------------------------------|
-| [Automated UX QA checklist](projects/automated-ux-qa-checklist) | Sophie Felder    | Runs UX quality checks against standards     |
-| [CLI skill](projects/cli-skill)                                 | Hartmut Obendorf | Reviews and designs Canonical CLIs           |
-| [penpot-automation](projects/penpot-automation)                 | Hartmut Obendorf | Automates Penpot design workflows            |
-
-## 💻 Code
-
-| Project                                                                           | Author           | Description                                  |
-|-----------------------------------------------------------------------------------|------------------|----------------------------------------------|
-| [AI-enabled terminal prototype](projects/ai-enabled-terminal-prototype)           | Hartmut Obendorf | Terminal with AI capabilities                |
-| [Design workshop](projects/design-workshop)                                       | Hartmut Obendorf | Tools for design workshop facilitation       |
-| [pi SDK](projects/pi-sdk)                                                         | Hartmut Obendorf | Design system integration SDK                |
-| [Component wiki relaunch](projects/component-wiki-relaunch)                       | Hartmut Obendorf | Refreshed component documentation wiki       |
-| [Documentation Search prototype](projects/documentation-search-prototype)         | Hartmut Obendorf | Searches design documentation                |
-| [Mermaid rendering engine prototype](projects/mermaid-rendering-engine-prototype) | Hartmut Obendorf | Renders Mermaid diagrams                     |
-
-## 📦 Other
-
-| Project                                                                           | Author           | Description                                  |
-|-----------------------------------------------------------------------------------|------------------|----------------------------------------------|
-| [JIRA triggers](projects/jira-triggers)                                           | Hartmut Obendorf | Automation triggers for design workflows     |
+**Have an idea but no code?** [Open an issue](../../issues) and describe what you wish existed. Someone might build it or help you get started.
 
 ---
 
-## Not sure where to start?
+## Tool index
 
-**Just want to browse?** Scroll through the tables above and click into anything that looks useful.
+### 🔮 Gems
 
-**Built something you want to share?** Read the [contribution guide](CONTRIBUTING.md) — it takes about 5 minutes.
+| Project                                                       | Author         | Good for           | Data          | Description                                  |
+|---------------------------------------------------------------|----------------|--------------------|---------------|----------------------------------------------|
+| [Canonical UX writing bot](projects/canonical-ux-writing-bot) | Sophie Felder  | UX writing         | ☁️ Gemini API | Writes UX copy in the Canonical voice        |
+| [Canonical editing bot](projects/canonical-editing-bot)       | Sophie Felder  | UX writing         | ☁️ Gemini API | Edits and reviews UX copy                    |
 
-**Have an idea but no code?** Open an [issue](../../issues) and describe what you wish existed. Someone else might build it — or help you get started.
+### 🛠 Skills
 
----
+| Project                                                         | Author           | Good for           | Data            | Description                                  |
+|-----------------------------------------------------------------|------------------|--------------------|-----------------|----------------------------------------------|
+| [Automated UX QA checklist](projects/automated-ux-qa-checklist) | Sophie Felder    | QA                 | 💻 Local        | Runs UX quality checks against standards     |
+| [CLI skill](projects/cli-skill)                                 | Hartmut Obendorf | CLI design         | 💻 Local        | Reviews and designs Canonical CLIs           |
+| [penpot-automation](projects/penpot-automation)                 | Hartmut Obendorf | Design tools       | ☁️ Penpot API   | Automates Penpot design workflows            |
 
-## Why this exists
+### 💻 Code
 
-We kept finding that one person would build a useful tool and others wouldn't know about it. This repo is a shared place to:
+| Project                                                                           | Author           | Good for           | Data            | Description                                  |
+|-----------------------------------------------------------------------------------|------------------|--------------------|-----------------|----------------------------------------------|
+| [AI-enabled terminal prototype](projects/ai-enabled-terminal-prototype)           | Hartmut Obendorf | Prototyping        | 💻 Local        | Terminal with AI capabilities                |
+| [Design workshop](projects/design-workshop)                                       | Hartmut Obendorf | Facilitation       | 💻 Local        | Tools for design workshop facilitation       |
+| [pi SDK](projects/pi-sdk)                                                         | Hartmut Obendorf | Design systems     | 💻 Local        | Design system integration SDK                |
+| [Component wiki relaunch](projects/component-wiki-relaunch)                       | Hartmut Obendorf | Documentation      | 💻 Local        | Refreshed component documentation wiki       |
+| [Documentation Search prototype](projects/documentation-search-prototype)         | Hartmut Obendorf | Documentation      | 💻 Local        | Searches design documentation                |
+| [Mermaid rendering engine prototype](projects/mermaid-rendering-engine-prototype) | Hartmut Obendorf | Documentation      | 💻 Local        | Renders Mermaid diagrams                     |
 
-- **Find** tools other designers have built
-- **Share** your own tools so they don't stay on your laptop
-- **Learn** from how others are using AI in their design work
-- **Build on** what already exists instead of starting from scratch
+### 📦 Other
+
+| Project                                                                           | Author           | Good for           | Data            | Description                                  |
+|-----------------------------------------------------------------------------------|------------------|--------------------|-----------------|----------------------------------------------|
+| [JIRA triggers](projects/jira-triggers)                                           | Hartmut Obendorf | Automation         | ☁️ JIRA API     | Automation triggers for design workflows     |

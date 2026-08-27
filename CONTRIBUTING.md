@@ -1,6 +1,8 @@
 # How to contribute
 
-Adding your project takes about 5 minutes. Pick the path that fits your comfort level.
+Your half-finished gem, your hacky automation, your "I'm not sure this is good enough" prototype — it's worth sharing. A tool with a two-line description is better than a tool nobody knows about.
+
+Nothing here is officially endorsed or approved. Everything is shared as-is: things people have tried, things that worked, things worth adapting. Add yours.
 
 ---
 
@@ -29,16 +31,18 @@ Use a short, lowercase, hyphenated name (e.g. `ux-writing-bot`, `cli-review-skil
 
 ### 3. Fill in your project page
 
-Open `projects/your-project-name/README.md` and fill in the sections. The template has prompts for each one — replace them with your own content.
+Open `projects/your-project-name/README.md` and fill in the sections. Only three are required: **What it does**, **How to use it**, and **Status**. The rest are optional.
 
 **Not sure what to write?** You can paste the template into an LLM and ask it to help you fill it in based on a description of your tool. The template is designed to work well with this workflow.
 
 ### 4. Add your project to the landing page
 
-Open `README.md` in the repo root and add a row to the table that matches your project type (Gem, Skill, Code, or Other):
+Open `README.md` in the repo root and add a row to the table that matches your project type (Gem, Skill, Code, or Other). **This step is required** — it's how people find your tool.
+
+Match this format:
 
 ```markdown
-| [Your project name](projects/your-project-name) | Your Name | One-line description |
+| [Your project name](projects/your-project-name) | Your Name | Use case | ☁️ API name / 💻 Local | One-line description |
 ```
 
 ### 5. Open a pull request
