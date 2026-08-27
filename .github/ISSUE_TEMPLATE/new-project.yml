@@ -1,0 +1,68 @@
+name: "Add a project"
+description: "Share a tool, gem, skill, or prototype with the team"
+title: "[New project] "
+labels: ["new-project"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: e.g. "UX writing bot"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What type of asset is this?
+      options:
+        - Gem (Gemini gem)
+        - Skill (Copilot skill or prompt)
+        - Code (prototype, tool, integration)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link to the tool or repo
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: A few sentences is fine.
+      placeholder: "This gem helps you write error messages in the Canonical voice..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: usage
+    attributes:
+      label: How do you use it?
+      description: Brief steps or just describe your workflow.
+      placeholder: "Open Gemini, select the gem, paste in your draft copy..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - 🟢 Active — I use this regularly
+        - 🟡 Experimental — works but rough edges
+        - 🔴 Archived — not maintained but might be useful
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Your name
+    validations:
+      required: true
