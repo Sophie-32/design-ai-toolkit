@@ -10,7 +10,7 @@ Nothing here is "official." These are tools people actually use, experiments wor
 
 **Browse** the [tool index](#tool-index) below. Each project page tells you how to get going.
 
-**Add** your work** using the [contribution guide](CONTRIBUTING.md) — it takes about 5 minutes. Rough, unpolished things are welcome.
+**Add** your work using the [contribution guide](CONTRIBUTING.md) — it takes about 5 minutes. Rough, unpolished things are welcome.
 
 **Add an idea** to the list [Open an issue](../../issues). Describe what you wish existed. Someone might build it or help you get started.
 
